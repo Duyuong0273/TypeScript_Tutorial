@@ -108,3 +108,13 @@ TypeScript suy luận kiểu trả về từ return nếu bạn không khai báo
 Tuy nhiên nên khai báo rõ ràng : ReturnType cho hàm xuất khẩu (exported) để dễ bảo trì và tránh suy luận sai.
 
 Ví dụ: function f(): number { return 1; } — rõ ràng.
+
+
+### LESSSON 4: Assertions ###
+
+- Type assertion trong TypeScript cho phép bạn nói với compiler rằng:
+
+    "Hãy coi giá trị này như kiểu X đi, tôi biết rõ hơn compiler"
+- Nó không thay đổi giá trị thật sự khi run time (chạy trên JS) mà chỉ tác động đến type checking ở compile-time
+
+=> Đây là cách ép kiểu trong TS
