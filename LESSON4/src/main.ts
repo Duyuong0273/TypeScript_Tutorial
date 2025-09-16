@@ -1,3 +1,4 @@
+
 //Type Aliases
 type stringOrNumber = string | number
 
