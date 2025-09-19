@@ -128,3 +128,13 @@ Ví dụ: function f(): number { return 1; } — rõ ràng.
 - Nó địnhh nghĩa:
  - Thuộc tính(properties) - dữ liệu mà object chứa
  - Phương thức (methods) - hành vi mà object có
+
+### LESSSON 7:  index Signatures & key of Assertions  ###
+
+1. Index Signatures
+
+- Dùng khi bạn không bt trước thuộc tính, nhưng biết kiểu dữ liệu của chúng
+
+2. keyof Assertions (Keyof + Type Assertions)
+- keyof lấy tập hợp key của một type/interface.
+- Dùng để truy cập property an toàn và tránh gõ nhầm
