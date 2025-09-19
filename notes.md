@@ -110,7 +110,7 @@ Tuy nhiên nên khai báo rõ ràng : ReturnType cho hàm xuất khẩu (exporte
 Ví dụ: function f(): number { return 1; } — rõ ràng.
 
 
-### LESSSON 4: Assertions ###
+### LESSSON 5: Assertions ###
 
 - Type assertion trong TypeScript cho phép bạn nói với compiler rằng:
 
@@ -118,3 +118,13 @@ Ví dụ: function f(): number { return 1; } — rõ ràng.
 - Nó không thay đổi giá trị thật sự khi run time (chạy trên JS) mà chỉ tác động đến type checking ở compile-time
 
 => Đây là cách ép kiểu trong TS
+
+
+### LESSSON 6: Classes ###
+
+1. Class là gì?
+
+- class (lớp) là khuôn mẫu (blueprint) để tạo ra đối tượng (object)
+- Nó địnhh nghĩa:
+ - Thuộc tính(properties) - dữ liệu mà object chứa
+ - Phương thức (methods) - hành vi mà object có
