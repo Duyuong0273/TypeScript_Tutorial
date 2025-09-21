@@ -150,3 +150,13 @@ nhưng vẫn giữ được tính an toàn kiểu dữ liệu
  Generics = tham số kiểu hoá dữ liệu (types parameter)
  Bạn không cần fix cứng kiểu dữ liệu (vd: string, number) mà có thể để "tạm thời" và TypeScript sẽ suy ra 
  Hoặc bạn truyền vào khi truyền vào khi dùng
+
+### LESSSON 9:  Utility Types  ###
+
+1. Utility Types là gì?
+
+- Utility Types là những kiểu dựng sẵn (built-in types) mà TypeScript cung cấp.
+- Chúng giúp bạn biến đổi hoặc tái sử dụng type đã có một cách nhanh chóng thay vì phải định nghĩa lại
+- Giúp code ngắn gọn, dễ bảo trì, giảm lặp lại
+
+vd: Bạn có một type User thay vì tạo type mới chỉ lấy một số thuộc tính của User, bạn có thể dùng utility types như Pick, Omit, Partial,...
