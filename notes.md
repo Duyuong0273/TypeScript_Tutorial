@@ -138,3 +138,15 @@ Ví dụ: function f(): number { return 1; } — rõ ràng.
 2. keyof Assertions (Keyof + Type Assertions)
 - keyof lấy tập hợp key của một type/interface.
 - Dùng để truy cập property an toàn và tránh gõ nhầm
+
+### LESSSON 8:  Generics  ###
+
+1. Generics là gì?
+
+- Trong TypeScript, Generics là một cơ chế giúp bạn viết code linh hoạt hơn có thể dùng lại được
+nhưng vẫn giữ được tính an toàn kiểu dữ liệu
+
+- Nói đơn giản:
+ Generics = tham số kiểu hoá dữ liệu (types parameter)
+ Bạn không cần fix cứng kiểu dữ liệu (vd: string, number) mà có thể để "tạm thời" và TypeScript sẽ suy ra 
+ Hoặc bạn truyền vào khi truyền vào khi dùng
