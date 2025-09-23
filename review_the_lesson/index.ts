@@ -1,0 +1,1 @@
+import type {Customer, Userresponse} from "./main"
